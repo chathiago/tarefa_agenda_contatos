@@ -14,8 +14,6 @@ form.addEventListener('submit', function (e) {
 })
 
 function adicionarLinha() {
-    inputNomeContato
-    inputNumeroContato
 
     if(nomes.includes(inputNomeContato.value)) {
         alert(`O nome: ${inputNomeContato.value} já existe`)
